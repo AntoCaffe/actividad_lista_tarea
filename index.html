@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de Tareas</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body>
+    <h1>Lista de Tareas</h1>
+    <input type="text" id="nuevaTarea" placeholder="Ingrese una nueva tarea"/>
+    <button onclick="agregarTarea()">Agregar</button>
+    <ul id="listaTareas"></ul>
+
+    <input type="text" id="nuevaTareaCompletada" placeholder="Ingresar Tarea completada"/>
+    <button onclick="tareasCompletas()" id="mostrarCompletadas">Mostrar Completadas</button>
+    <ul id="listaTareasCompletas"></ul>
+
+    <input type="text" id="nuevaTareaPendiente" placeholder="Ingresar Tarea Pendiente"></input>
+    <button onclick="tareasPendientes()" id="mostrarPendientes">Mostrar Pendientes</button>
+    <ul id="listaTareasPendientes"></ul>
+    <script src="script.js"></script>
+</body>
+</html>
